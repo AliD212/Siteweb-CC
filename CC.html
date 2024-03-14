@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lycée Christophe Colomb</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: left;
+            padding: 20px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            transition: color 0.3s;
+            font-weight: bold;
+        }
+      
+        section {
+            position: relative;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        section h2 {
+            color: #333;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    
+        img {
+            max-width: 100%; /* Modifier pour utiliser 100% de la largeur disponible */
+            height: auto;
+            border-radius: 8px;
+            display: block; /* Assurer le comportement attendu sur différentes plateformes */
+            margin: 0 auto; /* Centrer l'image horizontalement */
+        }
+        .image-text-container {
+            display: flex;
+            flex-direction: row-reverse; 
+        }
+        .image-text-container img {
+            max-width: 50%;
+            margin-left: 20px; 
+        }
+
+        /* Media queries pour les écrans de petite taille (téléphones) */
+        @media only screen and (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+            .image-text-container {
+                flex-direction: column-reverse;
+            }
+            .image-text-container img {
+                max-width: 100%;
+                margin-left: 0;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Lycée Christophe Colomb</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#presentation">Présentation</a></li>
+        <li><a href="CC - Formation.html">Formation</a></li>
+        <li><a href="https://0941918z.index-education.net/pronote/">Pronote</a></li>
+        <li><a href="CC - Organisme.html">Organisme</a></li>
+        <li><a href="CC - Contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="presentation">
+    <h2>Présentation</h2>
+    <div class="image-text-container">
+        <img src="img/Sucy-en-Brie_-_Lycée_Christophe_Colomb.jpg" alt="Description de l'image">
+        <p>Le lycée polyvalent de Sucy-en-Brie a été créé en 1990 dans les locaux du collège du Fort, pour venir en complément au Lycée Guillaume Budé, devenu trop exigu pour accueillir tous les élèves du 10e district du Val de Marne. Financé par le Conseil Régional d’Ile de France, construit par Nord France sur un projet du cabinet d’architectes Picquenard, il est inauguré le 12 octobre 1992, le jour du 500e anniversaire de la découverte de l’Amérique. Le lycée Christophe Colomb est donc l’un des trois lycées polyvalents accueillant les élèves sortant de 3e résidant dans une des 10 communes du "plateau briard" ; Boissy-Saint-Léger ; Limeil-Brévannes, Mandres-Ies-Roses, Marolles-en-Brie, Noiseau, Périgny, Santeny, Sucy-en-Brie, Valenton et Villecresnes. L’équipe qui a travaillé à son édification, a souhaité en faire un espace de formation, certes, mais surtout un espace de vie. Il a été conçu pour donner l’envie d’apprendre, l’envie d’y vivre. Les bâtiments bas implantés sur un terrain de 30 000 m2 mis à disposition par le Syndicat Intercommunal pour la construction d’un lycée technique, s’intègrent à l’ environnement boisé et sont séparés par des espaces extérieurs dans lesquels pénètre la végétation offrant ainsi un cadre agréable et ouvert, propice à l’épanouissement. Elégant, fonctionnel, lumineux, câblé, il bénéficie de salles spécialisées, de laboratoires et d’équipements technologiques de pointe offrant ainsi le meilleur cadre pour travailler, apprendre et préparer son avenir.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2023 Lycée Christophe Colomb</p>
+</footer>
+
+</body>
+</html>
